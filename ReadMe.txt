@@ -1,6 +1,5 @@
 Inspried from 
 
-
 http://themes.3rdwavemedia.com/demo/developer/tom-najdek/
 
 https://www.doppnet.com/

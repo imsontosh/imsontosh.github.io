@@ -78,7 +78,7 @@ jQuery(document).ready(function($) {
     ];
     for (var i = 0; i < myData.length; i++) {
         var html = $(
-            "<li> <i class='fa fa-headphones' /> <a href=" +
+            "<li> <i class='fa fa-book' /> <a href=" +
                 myData[i].link +
                 " target='_blank'>" +
                 myData[i].text +

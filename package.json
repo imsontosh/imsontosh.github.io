@@ -1,0 +1,22 @@
+{
+  "name": "my-personal-website",
+  "version": "1.0.0",
+  "description": "My Single Page Profile",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://imsontosh@github.com/imsontosh/imsontosh.github.io.git"
+  },
+  "keywords": [
+    "imsontosh"
+  ],
+  "author": "Santosh Kumar Nayak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imsontosh/imsontosh.github.io/issues"
+  },
+  "homepage": "https://github.com/imsontosh/imsontosh.github.io#readme"
+}
