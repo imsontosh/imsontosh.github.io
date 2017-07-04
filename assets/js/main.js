@@ -48,6 +48,10 @@ jQuery(document).ready(function($) {
         {
             link: 'http://perfectionkills.com/javascript-quiz/',
             text: 'JS Quiz'
+        },
+        {
+            link: 'http://steelkiwi.com/blog/asynchronous-javascript-programming-promises/',
+            text: 'JS Promises'
         }
     ];
     for (var i = 0; i < myData.length; i++) {
