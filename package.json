@@ -2,9 +2,28 @@
   "name": "my-personal-website",
   "version": "1.0.0",
   "description": "My Single Page Profile",
-  "main": "main.js",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "es6-promise": "^4.1.1",
+    "fetch": "^1.1.0",
+    "github-activity": "^1.0.4",
+    "github-calendar": "^1.1.12",
+    "jquery": "^3.2.1",
+    "mustache": "^2.3.0",
+    "webpack": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp",
+    "start": "gulp build"
   },
   "repository": {
     "type": "git",
