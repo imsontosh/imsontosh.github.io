@@ -1,0 +1,56 @@
+{
+  "css": [
+    {
+      "link": "https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/",
+      "text": "CSS Specificity"
+    },
+    {
+      "link" : "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+      "text" : "Flexbox"
+    }
+  ],
+  "js": [
+    {
+      "link": "https://www.quirksmode.org/js/events_order.html",
+      "text": "JS Event Order"
+    },
+    {
+      "link": "http://javascript.info/tutorial/inheritance",
+      "text": "JS inheritance"
+    },
+    {
+      "link": "https://www.sitepoint.com/back-to-basics-javascript-hoisting/",
+      "text": "JS Hoisting Details"
+    },
+    {
+      "link": "https://gist.github.com/amysimmons/3d228a9a57e30ec13ab1",
+      "text": "JS Closures & Callback"
+    },
+    {
+      "link": "http://perfectionkills.com/javascript-quiz/",
+      "text": "JS Quiz"
+    },
+    {
+      "link": "http://steelkiwi.com/blog/asynchronous-javascript-programming-promises/",
+      "text": "JS Promises"
+    }
+  ],
+  "video": [
+    {
+      "link": "https://www.youtube.com/watch?v=71AtaJpJHw0",
+      "text": "Closures"
+    }
+  ],
+  "react" : [
+    {
+      "link" : "https://www.youtube.com/watch?v=eOctQZ1EV0E&list=PLLnpHn493BHFfs3Uj5tvx17mXk4B4ws4p",
+      "text" : "React for Beginners"
+    }
+  ],
+  "angular" : [
+    {
+      "link" : "https://www.youtube.com/watch?v=NJ4FYsRV3nU&list=PLLnpHn493BHF6utwkwpo7RN-GPg1sZhvK",
+      "text" : "Angular"
+    }
+  ]
+}

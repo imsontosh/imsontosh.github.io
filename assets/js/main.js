@@ -23,46 +23,31 @@ jQuery(document).ready(function($) {
 
     /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
     // GitHubCalendar('.github-graph', 'imsontosh');
-    GitHubCalendar('.calendar', 'imsontosh');
+    GitHubCalendar('.calendar', 'imsontosh',{responsive:true});
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
     GitHubActivity.feed({ username: 'imsontosh', selector: '#ghfeed' });
 
-    //JS Blogs
-    var myData = [
-        {
-            link: 'https://www.quirksmode.org/js/events_order.html',
-            text: 'JS Event Order'
-        },
-        {
-            link: 'http://javascript.info/tutorial/inheritance',
-            text: 'JS inheritance'
-        },
-        {
-            link: 'https://www.sitepoint.com/back-to-basics-javascript-hoisting/',
-            text: 'JS Hoisting Details'
-        },
-        {
-            link: 'https://gist.github.com/amysimmons/3d228a9a57e30ec13ab1',
-            text: 'JS Closures & Callback'
-        },
-        {
-            link: 'http://perfectionkills.com/javascript-quiz/',
-            text: 'JS Quiz'
-        },
-        {
-            link: 'http://steelkiwi.com/blog/asynchronous-javascript-programming-promises/',
-            text: 'JS Promises'
-        }
-    ];
-    for (var i = 0; i < myData.length; i++) {
-        var html = $(
-            "<li> <i class='fa fa-book' /> <a href=" +
-                myData[i].link +
-                " target='_blank'>" +
-                myData[i].text +
-                '</a> </li>'
-        );
+    //Inject Blogs to UI
+    $.getJSON( "./blogs.json", function( data ) {
+        console.log('data',data);
+        var myData = [];
+        for (var prop in data){
+            //JS Blogs
+            myData = data[prop];
 
-        $('#blog-list').append(html);
-    }
+            for (var i = 0; i < myData.length; i++) {
+                var html = $(
+                    "<li> <i class='fa fa-book' /> <a href=" +
+                        myData[i].link +
+                        " target='_blank'>" +
+                        myData[i].text +
+                        '</a> </li>'
+                );
+
+                $('#'+prop+'-blog-list').append(html);
+            }
+        }
+    });
+    
+  
 });

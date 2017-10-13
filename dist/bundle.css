@@ -9304,6 +9304,16 @@ iframe {
     width: 1360px;
   }
 }
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+#js-blog-list,
+#cs-blog-list {
+  max-height: 200px;
+  overflow: auto;
+}
 .calendar {
   width: 750px;
   font-family: Helvetica, arial;

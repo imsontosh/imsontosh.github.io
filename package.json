@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "gulp",
-    "start": "gulp build"
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
