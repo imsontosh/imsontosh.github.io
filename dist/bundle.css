@@ -9305,8 +9305,13 @@ iframe {
   }
 }
 
+#exTab1 {
+  margin-bottom: 10px;
+}
+
 #exTab1 .nav-pills > li > a {
   border-radius: 0;
+  font-size: 12px;
 }
 
 #js-blog-list,
