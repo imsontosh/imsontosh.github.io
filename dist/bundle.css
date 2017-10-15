@@ -9307,6 +9307,7 @@ iframe {
 
 #exTab1 {
   margin-bottom: 10px;
+  width: 100%;
 }
 
 #exTab1 .nav-pills > li > a {
