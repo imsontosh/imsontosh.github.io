@@ -45,6 +45,10 @@
     {
       "link" : "https://www.youtube.com/watch?v=eOctQZ1EV0E&list=PLLnpHn493BHFfs3Uj5tvx17mXk4B4ws4p",
       "text" : "React for Beginners"
+    },
+    {
+      "link": "https://medium.com/@rajaraodv/the-inner-workings-of-virtual-dom-666ee7ad47cf"
+      "text" : "Virtual DOM Details"
     }
   ],
   "angular" : [
