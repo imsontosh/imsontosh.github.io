@@ -49,6 +49,10 @@
     {
       "link": "https://medium.com/@rajaraodv/the-inner-workings-of-virtual-dom-666ee7ad47cf",
       "text" : "Virtual DOM Details"
+    },
+    {
+      "link" : "https://medium.com/@auchenberg/live-edit-and-debug-your-react-apps-directly-from-vs-code-without-leaving-the-editor-3da489ed905f",
+      "text" : "Code Setup For React"
     }
   ],
   "angular" : [
