@@ -11,6 +11,10 @@
   ],
   "js": [
     {
+      "link": "https://blog.sessionstack.com/tagged/tutorial",
+      "text": "How Javascript works"
+    },
+    {
       "link": "https://www.quirksmode.org/js/events_order.html",
       "text": "JS Event Order"
     },
